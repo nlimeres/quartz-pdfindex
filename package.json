@@ -1,0 +1,23 @@
+{
+  "name": "quartz-pdf-indexer",
+  "version": "1.0.0",
+  "description": "A post-build script for Quartz v5 to extract text from PDFs and inject them into the search index.",
+  "main": "index-pdf.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index-pdf.js"
+  },
+  "keywords": [
+    "quartz",
+    "quartz-v5",
+    "pdf",
+    "search",
+    "indexer",
+    "javascript"
+  ],
+  "author": "nlimeres",
+  "license": "MIT",
+  "dependencies": {
+    "pdf2json": "^3.1.3"
+  }
+}
